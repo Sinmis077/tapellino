@@ -15,13 +15,21 @@
 			<span>
 				<button onclick="location.href='index.html'" type="button"> Main Page </button>
 				<select>
-					<option value="null" > Select </option>
-					<option value="Stickers" onclick="location.href='stickers.html'"> Stickers </option>
-					<option value="advanced" onclick="location.href='communication.html'"> Advanced Tech </option>
+					<option value="null" > Select Sticker Tab </option>
+					<option value="Stickers" onclick="location.href='stickers.html'"> Normal Stickers </option>
+					<option value="GlassStickers" onclick="location.href='gstickers.html'"> Glass Stickers </option>
+					<option value="CarStickers" onclick="location.href='cstickers.html'"> Car Stickers </option>
 				</select>
-				<button id="selectedbutton" onclick="location.href='signs.html'" type="button"> Signs </button>		
+				<select>
+					<option value="null" > Select Sign Tab </option>
+					<option value="MetalSigns" onclick="location.href='msigns.html'"> Metal Signs </option>
+					<option value="PlasticSigns" onclick="location.href='psigns.html'"> Plastic Signs </option>
+					<option value="NeonSigns" onclick="location.href='nsigns.html'"> Neon Signs </option>
+					<option value="NeonLetterSigns" onclick="location.href='nlsigns.html'"> Neon Letter Signs </option>
+					<option id="selectedbutton" value="OtherSigns" onclick="location.href='osigns.html'"> Other Signs </option>
+				</select>
 				<button onclick="location.href='communication.html'" type="button"> Communication </button>
-			</span>	
+			</span>			
 		</nav>
 		<main>
 			<p>We make all sorts of advertising signs for your stores, we always try our best to produce
