@@ -4,6 +4,7 @@
 	<head>
 		<title>Advertising Signs</title>
 		<link href="style.css" rel="stylesheet" />
+		<link rel="icon" href="images/t.png" />
 	</head>
 	<body>
 		<Header>
@@ -11,10 +12,16 @@
 			<h3> How to get in contact with us to order your sign or sticker</h3>
 		</Header>
 		<nav>
-			<button onclick="location.href='index.html'" type="button"> Main Page </button>
-			<button onclick="location.href='stickers.html'" type="button"> Stickers </button>
-			<button onclick="location.href='signs.html'" type="button"> Signs </button>
-			<button id="selectedbutton" onclick="location.href='communication.html'" type="button"> Communication </button>
+			<span>
+				<button onclick="location.href='index.html'" type="button"> Main Page </button>
+				<select>
+					<option value="null" > Select </option>
+					<option value="Stickers" onclick="location.href='stickers.html'"> Stickers </option>
+					<option value="advanced" onclick="location.href='communication.html'"> Advanced Tech </option>
+				</select>
+				<button onclick="location.href='signs.html'" type="button"> Signs </button>		
+				<button id="selectedbutton" onclick="location.href='communication.html'" type="button"> Communication </button>
+			</span>	
 		</nav>
 		<main>
 			<span><p style="display:inline-block;">Our shop is located at <i> Cyprus, Limassol, <b>Asias 38Γ</b></i> <br>
