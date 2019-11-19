@@ -3,7 +3,7 @@
 }
 body {
 	text-align:center;
-	background-image: url(images/body.JPG); /* former color was rgb(192,192,192); */
+	background-image: url('images/body.JPG'); /* former color was rgb(192,192,192); */
 	background-repeat: no-repeat;
 	background-size:cover;
 	background-attachment: fixed;
@@ -32,20 +32,20 @@ select {
 	text-align:center;
 }	
 Header {
-	background-image: url(images/header.JPG); /* former color was lightgreen */
+	background-image: url('images/header.JPG'); /* former color was lightgreen */
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat:no-repeat;
 }
 Main {
-	background-image: url(images/main.JPG);	/* former color was lightblue */
+	background-image: url('images/main.JPG');	/* former color was lightblue */
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 }
 Footer {
 	text-align:left;
-	background-image: url(images/footer.JPG); /* former color was red */
+	background-image: url('images/footer.JPG'); /* former color was red */
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
