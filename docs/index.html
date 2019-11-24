@@ -21,12 +21,18 @@
 		<nav>
 			<span>
 				<button id="selectedbutton" onclick="location.href='index.html'" type="button"> Main Page </button>
-				<select>
-					<option value="null" > Select Sticker Tab </option>
-					<option value="Stickers" onclick="location.href='stickers.html'"> Normal Stickers </option>
-					<option value="GlassStickers" onclick="location.href='gstickers.html'"> Glass Stickers </option>
-					<option value="CarStickers" onclick="location.href='cstickers.html'"> Car Stickers </option>
-				</select>
+				<ul style="display: inline-block;">
+					<li class="tabs">
+					Select Sticker Tab
+						<ol>
+							<div>
+								<li value="Stickers" onclick="location.href='stickers.html'"> Normal Stickers </li>
+								<li value="GlassStickers" onclick="location.href='gstickers.html'"> Glass Stickers </li>
+								<li value="CarStickers" onclick="location.href='cstickers.html'"> Car Stickers </li>
+							</div>
+						</ol>
+					</li>
+				</ul>
 				<select>
 					<option value="null" > Select Sign Tab </option>
 					<option value="MetalSigns" onclick="location.href='msigns.html'"> Metal & Alucobond Signs </option>

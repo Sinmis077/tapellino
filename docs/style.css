@@ -60,6 +60,12 @@ h1 {
 p {
 	color:white;
 }
+ul {
+	list-style-type:none;
+}
+ol {
+	list-style-type:none;
+}
 /* All ids from all htmls */
 #selectedbutton {
 	background-color:green;
@@ -73,6 +79,22 @@ p {
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
+}
+.tabs {
+	border: 2px solid white;
+	background-color: white;
+	width:135px;
+	height:27px;
+	text-align:center;
+}
+.tabs div {
+	display:none;
+}
+.tabs:hover div {
+	display:block;
+	background-color:lightblue;
+	z-index:1;
+	position: absolute;
 }
 /* CSS classes for stickers */
 .sticks {
