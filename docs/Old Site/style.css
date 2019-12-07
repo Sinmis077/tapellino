@@ -21,8 +21,14 @@ button {
 	text-align:center;
 	margin-left:3px;
 	color:blue;
+	font-size:15px;
 	height:30px; /* default = 30px; */
 	width:135px; /* default = 135px; */
+	max-height:180px;
+	max-width:810px;
+	min-height:30px;
+	min-width:75px;
+	margin-top:7px;
 }
 select {
 	width:135px;
@@ -30,6 +36,12 @@ select {
 	color:blue;
 	border:2px solid white;
 	text-align:center;
+	font-size:15px;
+	max-height:180px;
+	max-width:810px;
+	min-height:30px;
+	min-width:75px;
+	margin-top:7px;
 }	
 Header {
 	background-image: url('images/header.JPG'); /* former color was lightgreen */
@@ -83,12 +95,18 @@ ol {
 .tabs {
 	border: 2px solid white;
 	background-color: white;
-	width:135px;
-	height:23px;
+	width:135;
+	height:23;
 	text-align:center;
 	padding-bottom:1px;
 	padding-top:3px;
 	margin-right:3px;
+	min-height:23px;
+	min-width:75px;
+	max-height:138px;
+	max-width:510px;
+	font-size:15px;
+	color:blue;
 }
 .tabs div {
 	display:none;
@@ -99,6 +117,17 @@ ol {
 	z-index:1;
 	position: absolute;
 	border: 2px solid blue;
+}
+.itemlist {
+	border: 2px solid blue;
+	padding-top:3px;
+	text-align:center;
+	min-width:135px;
+	min-height:20px;
+	height:auto;
+	width:auto;
+	max-height:120px;
+	max-width::635px;
 }
 /* CSS classes for stickers */
 .sticks {
