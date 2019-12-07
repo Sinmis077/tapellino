@@ -48,10 +48,18 @@ footer {
 	padding: 0;
 	margin: 0;
 }
+table {
+	width:10%;
+	height:5%;	
+}
 /* tab classes */
 .tabitem {
 	color:white;
-	
+	border: 1px dashed white;
+	list-style-type:none;
+	list-style-position:absolute;
+	padding: 4px;
+	margin: 2px;
 }
 .selector div {
 	display:none;
@@ -61,5 +69,13 @@ footer {
 	position:absolute;
 	background-color:black;
 	z-index:1;
+	border:2px solid white;
+}
+.selector {
+	list-style-position:absolute;
+	list-style-type:none;
+	background-color:white;
+	padding:0;
+	margin:0;
 }
 	
