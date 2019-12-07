@@ -41,6 +41,12 @@ footer {
 	max-width:3500px;
 	min-height:50px;
 	min-width:300px;
+	background-image: url('../../images/webpage/footer.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding: 0;
+	margin: 0;
 }
 /* tab classes */
 .tabitem {
