@@ -60,9 +60,8 @@ footer {
 .selector:hover div {
 	display:block;
 	position:absolute;
-	background-color:black;
+	background-color:#ddd;
 	z-index:1;
-	border:2px solid white;
 }
 .topnav {
 	background-color:#333;
