@@ -1,47 +1,53 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Main Site</title>
-		<link href="js/nav.js" rel="script" >
-		<link href="css/main.css" rel="stylesheet" />
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<head>
-	<body>
-		<header>
-			<h1> Welcome to our official page! </h1>
-		</header>
-		<nav>
-			<div class="topnav" id="myTopnav">
-				<a href="index.html" class="active">Home</a>
-				<a class="selector"> Stickers & Banners
+
+<head>
+    <title>Main Site</title>
+    <script src="js/nav.js">
+    </script>
+    <script src="js/sticks.js"></script>
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="css/mobile.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <head>
+
+        <body>
+            <header>
+                <h1> Welcome to our official page! </h1>
+            </header>
+            <nav>
+                <div class="topnav" id="myTopnav">
+                    <a href="index.html" class="active">Home</a>
+                    <div class="mystick" id="MySticksId">
+                        <a href="javascript:void(0);" onclick="mySticks()" class="item1"> Stickers & Banners
+					<i style="padding-left:5px;" class="fa fa-bars"></i>
+						<a class="tis" onclick="href='stickers.html'">Normal Stickers</a>
+                        <a class="tis" onclick="href='sstickers.html'">Special Stickers</a>
+                        <a class="tis" onclick="href='banners.html'">Banners</a>
+                        </a>
+                    </div>
+                    <a class="selector"> Signs & Digital Printing
 					<ol>
 						<div>
-							<li class="tabitem" onclick="href='stickers.html'">Normal Stickers</li>
-							<li class="tabitem" onclick="href='sstickers.html'">Special Stickers</li>
-							<li class="tabitem" onclick="href='banners.html'">Banners</li>
-						</div>
-					</ol>
-				</a>		
-				<a class="selector"> Signs & Digital Printing
-					<ol>
-						<div>
-							<li class="tabitem" onclick="href='CSigns'">Common Signs</li>
-							<li class="tabitem" onclick="href='SSigns'">Special Signs</li>
-							<li class="tabitem" onclick="href='print.html'">Digital Printing</li>
+							<li class="tabitem2" onclick="href='CSigns'">Common Signs</li>
+							<li class="tabitem2" onclick="href='SSigns'">Special Signs</li>
+							<li class="tabitem2" onclick="href='print.html'">Digital Printing</li>
 						</div>
 					</ol>
 				</a>
-				<a href="Contact.html">Contact Us</a>
-				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-					<i class="fa fa-bars"></i>
-				</a>
-			</div>
-		</nav>
-		<main>
-		
-		</main>
-		<footer>
-			<h2>©2019 Tapellino</h2>
-		</footer>
-	</body>
+                    <a href="Contact.html">Contact Us</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myNav()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </nav>
+            <main>
+
+            </main>
+            <footer>
+                <h2>©2019 Tapellino</h2>
+            </footer>
+        </body>
+
 </html>

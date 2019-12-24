@@ -1,0 +1,14 @@
+@media and screen (max-width:600px) {
+	body {
+		max-width:600px;
+		max-height:750px;
+		height:auto;
+		width:auto;
+		min-height:100px;
+		min-width:120px;
+	}
+	header {
+		max-height:135px;
+		max-width:600px;
+		height:auto;
+		
