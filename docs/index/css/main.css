@@ -1,5 +1,7 @@
+/* Main Site Design */
 * { 
  font-family: Arial, Helvetica, sans-serif;
+ color:white;
 }
 body {
 	width:auto;
@@ -8,10 +10,13 @@ body {
 	max-width:3500px;
 	min-height:50px;
 	min-width:100px;
+	background-color:#181818;
+	/*
 	background-image: url('../../images/webpage/body.png');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-size: cover;
+	background-size: cover; 
+	*/
 	padding: 0;
 	margin: 0;
 }
@@ -43,21 +48,28 @@ footer {
 	background-color:#333;
 	color:white;
 }
-/* tab classes */
-.tabitem2,.tabitem1 {
-	color:white;
+/* End of Main Site Design */
+/* Start of Tab Classes */
+.tabitem {
+	color:black;
     background-color:#ddd; 
 	list-style-type:none;
 	list-style-position:inside;
-	padding: 0px;
+	padding: 5px 0px;
 	margin: 0px;
+	text-align:left;
+	cursor:pointer;
 }
 .selector div {
 	display:none;
 }
 .selector:hover div {
 	display:block;
-	background-color:#ddd;	
+	background-color:#ddd;
+	cursor:pointer;
+}
+.selector:hover div:first-child {
+	padding-top:10px;
 }
 .selector ul {
 	list-style-type:none;
@@ -65,15 +77,11 @@ footer {
 	margin:0;
 	border:0;
 }
-.mystick a.tis {display:none;}	
-.mystick.response a.tis {
-	float: none;
-	display:block;
-	text-align:left;
-	background-color:#ddd;
-	z-index:0;
-	color:white;
+.selector {
+	cursor:pointer;	
 }
+/* End of Tab Classes */
+/* Start of the topnav Classes */
 .topnav {
 	background-color:#333;
 	overflow:hidden;
@@ -118,3 +126,42 @@ footer {
 		text-align:left;
 	}
 }
+/* End of the topnav classes */
+/* Start of onload animation */
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}  
+.headanimation {
+	background-color:#808080;
+	padding: 10px 0px;
+	text-align:center;
+	animation: 2s ease-in 0s 1 slideInFromLeft;
+}
+/* End of onload animation */
+/* Start of General Classes & Ids */
+/* Classes */
+
+
+
+
+
+/* Ids */
+#aboutus {	
+}
+/* End of General Classes & Ids */
+
+
+
+
+
+
+
+
+
+
+
