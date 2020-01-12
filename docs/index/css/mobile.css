@@ -1,4 +1,4 @@
-@media and screen (max-width:600px) {
+@media all and screen (max-width:600px) {
 	body {
 		max-width:600px;
 		max-height:5050px;

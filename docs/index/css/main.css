@@ -1,7 +1,9 @@
 /* Main Site Design */
-* { 
- font-family: Arial, Helvetica, sans-serif;
- color:white;
+* {
+	//font-family:BoomBox;
+	font-family: Arial, Helvetica, sans-serif;
+	color:white;
+	overflow:auto;
 }
 body {
 	width:auto;
@@ -29,7 +31,9 @@ header {
 	min-width:100px;
 	background-color:#333;
 	color:white;
-}
+	margin:0;
+	padding:0;
+	}
 main {
 	width:auto;
 	height:auto;
@@ -47,6 +51,18 @@ footer {
 	min-width:100px;
 	background-color:#333;
 	color:white;
+}
+nav {
+	padding: 5px 0px;
+	padding-bottom: 10px;
+}
+img {
+	width:40%;
+	height:5%;
+}
+hr {
+	margin:0;
+	padding:0;
 }
 /* End of Main Site Design */
 /* Start of Tab Classes */
@@ -141,15 +157,104 @@ footer {
 	padding: 10px 0px;
 	text-align:center;
 	animation: 2s ease-in 0s 1 slideInFromLeft;
+	text-shadow:2px 2px white;
+	font-family:BoomBox;
+	margin:0;
+}
+.quoteanimation {
+	text-align:center;
+	animation: 2s ease-in 0s 1 slideInFromLeft;
+	text-shadow:2px 2px #378AEC;
+	padding:10px;
+	margin:0;
+	//letter-spacing:2px;
+}
+.quoteanimation p {
+	display:none;
 }
 /* End of onload animation */
+/* Start of Slideshow 
+.sshow {
+	width:75%;
+	height:3%;
+	text-align:center;
+	position: relative;
+	margin:auto;
+	display:block;
+	padding-bottom:6px;
+}
+.sshow * {
+	box-sizing:border-box;
+}
+.mySlides:not(:first-child) {
+	display: none;
+}
+.mySlides img {
+	width:75%;
+	height:3%;
+}
+/*
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+}
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+	background-color: rgba(0,0,0,0.8);
+}
+.numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+}
+
+.dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+	background-color: #717171;
+}
+.fade {
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+@keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
+}
+/* End of Slideshow */
 /* Start of General Classes & Ids */
 /* Classes */
-
-
-
-
-
+.pclass1 {
+	padding-left:15px;
+	padding: 5px 5px;
+	width:90%;
+	height:10%;
+	letter-spacing:1px;
+	font-size:17px;
+}
 /* Ids */
 #aboutus {	
 }
