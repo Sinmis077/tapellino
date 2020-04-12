@@ -4,6 +4,10 @@
 	color:white;
 	overflow:auto;
 }
+@font-face {
+	font-family:Enso;
+	src:url(Enso.ttf);
+}
 body {
 	width:auto;
 	height:auto;
@@ -11,7 +15,8 @@ body {
 	max-width:3500px;
 	min-height:50px;
 	min-width:100px;
-	background-color:#181818;
+	/*background-color:#181818;*/
+	background-image: linear-gradient(to top right, #181818 , #2e3233 , #000000);
 	/*
 	background-image: url('../../images/webpage/body.png');
 	background-repeat: no-repeat;
@@ -159,14 +164,13 @@ hr {
 	animation: 2s ease-in 0s 1 slideInFromLeft;
 	padding:10px;
 	margin:0;
-	width:30%;
-	height:5%;
-	padding-left:35%;
-	padding-right:35%;
 	display:block;
 }
-.quoteanimation p {
-	display:none;
+.quoteanimation q {
+	font-size:25px;
+	color:#3d96f4;
+	font-family:Enso;
+	text-shadow:2px 2px 2px white;
 }
 /* End of onload animation */
 /* Start of General Classes & Ids */
@@ -177,17 +181,18 @@ hr {
 	width:90%;
 	height:10%;
 	letter-spacing:1px;
-	font-size:17px;
+	font-size:20px;
 }
 /* Ids */
 #headmage {
-	width:30%;
-	height:5%;
-	padding-left:35%;
-	padding-right:35%;
+	text-align:center;
 	display:block;
 	margin:0;
 	background-color:#808080;
+	font-size:45px;
+	color:red;
+	font-family:Enso;
+	text-shadow:3px 3px 4px white;
 }
 /* End of General Classes & Ids */
 
